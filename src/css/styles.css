@@ -1,0 +1,249 @@
+/* General Styling*/
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: 'SF Pro Display',sans-serif;;
+}
+
+
+
+a {
+	color: #06c; 
+} 
+img {
+	max-width: 100%;
+}
+.white {
+	color: #fff;
+}
+.black {
+	color: #1d1d1f;
+}
+.grey {
+	color: #86868b;
+}
+.top-50 {
+	margin-top: 50px;
+}
+
+
+.upper-text-container {
+	border-bottom: 1px solid #d2d2d7;
+	padding: 17px 0 10px;
+	margin-bottom: 20px;
+}
+.upper-text-container a {
+	color: #515154;
+}
+
+
+.left-side-container {
+	min-height: 515px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+}
+
+.right-side-container {
+	min-height: 515px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+}
+.left-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.right-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.sixth-heghlight-wrapper .links-wrapper {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.links-wrapper ul {
+	list-style: none;
+}
+.product-title {
+	font-weight: 400;
+	font-size: 37px;
+}
+.brief-description {
+	font-size: 3em;
+}
+.sixth-heghlight-wrapper .description-wraper {
+	max-width: 250px;
+	margin: 7px auto;
+}
+.description-wraper.white{
+	color: white;
+
+}
+.description-wraper{
+	font-size: 16px;
+}
+.links-wrapper {
+	padding: 10px 0;
+}
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-wrapper ul li a {
+	color: #06c;
+	text-decoration: none;
+	font-size: 17px;
+}
+.links-wrapper ul li a:hover {
+	text-decoration: underline;
+	
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 400;
+  content: "\f105";
+  padding-left: 10px;
+}
+.title-wraper {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.title-wraper.bold {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1.12em;
+  letter-spacing: -0.04em;
+}
+.right-side-wrapper .title-wraper {
+	max-width: 280px;
+	margin: 0 auto;
+} 
+.description-wrapper {
+	font-size: 26px;
+	padding: 10px 0;
+}
+.price-wrapper{
+	font-size: 17px;
+}
+
+.watch-more-wrapper a {
+	text-decoration: none;
+	font-size: 0.85em;
+	color: #fff;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+.tvshow-logo-wraper {
+	padding: 10px 0 0px;
+}
+
+.links-wrapper.white li a {
+	color: #fff;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .title-wraper {
+    max-width: 380px;
+}
+
+/* Alert section */
+.alert-section {
+	text-align: center;
+	padding: 20px;
+}
+.alert-title {
+	font-weight: 600;
+	color: #1d1d1f;
+	padding: 10px;
+}
+.alert-text {
+	max-width: 90%;
+	margin: 0 auto;
+}
+/* .navbar-toggleable-sm{
+	height: 60px;
+} */
+
+@media (min-width: 768px) {
+	/*Nav bar*/
+	/* .nav-item {
+		text-align: center !important;
+		padding: 10px;
+		border-bottom: 0px;
+	}	 */
+	/*Footer styling*/
+	.my-apple-wrapper {
+		border-bottom: 1px solid #d2d2d7
+	}
+
+	.title-wraper.bold {
+	  font-size: 56px;
+	}
+	/* Second section */
+	
+	.new-alert {
+		color: #BF4801;
+		font-size: 18px;
+	}
+
+	/*Alert section*/
+	.alert-text {
+		max-width: 85%;
+		margin: 0 auto;
+	}	
+}
+@media (min-width: 992px) {
+	/*Footer styling*/
+	.copyright {
+		margin-top: 10px;
+	}
+	.footer-country {
+		margin-top: 10px;
+	}
+	.footer-links-terms {
+		margin-top: 10px;
+	}	
+}
+
+.internal-page-wrapper {
+	margin-top: 44px;
+	padding: 20px 0;	
+}
+
+/* Product page */
+.product-title {
+	font-size: 24px;
+	font-weight: 600;	
+  }
+  .product-brief {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2em;	
+  }
+  .starting-price {
+	  font-size: 20px;
+	  font-weight: 600;
+  }
+  .product-holder {
+	  margin: 100px 0;
+  }
+  .product-details {
+	  padding: 50px 0;
+  }
+ .large{
+	font-size: 56px;
+  }
+  .inch{
+	  font-size: 17px;
+  }
